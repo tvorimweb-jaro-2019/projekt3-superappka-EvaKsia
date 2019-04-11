@@ -29,5 +29,116 @@ body {
     background: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
+.navigace {
+    padding : 1px;
+    margin-top: 10px;
+}
 
-/* ----- zde začni psát vlastní CSS ----- */
+.navigace li{
+    display: inline-block;
+} 
+
+.navigace a{
+    color:#25133d;
+    text-decoration: none;
+    padding-right: 40px;
+    line-height: 1;
+}
+
+.banner{
+    position: relative;
+    background-image:url(images/pozadi.jpg);
+    height:475px;
+}
+
+.nadpis {
+    color: white;
+    font-size: 86px;
+    position: absolute;
+    top: 40px;
+    left: 40px; 
+    margin:0;
+}
+
+.telefon {
+    position: absolute;
+    top: 75px;
+    left: 555px;
+}
+
+.headline {
+    display: inline-block;
+    width: 400px;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    color:white;
+    font-size: 36px;
+    margin:0;
+    font-weight: 300;
+}
+
+.tlacitka {
+    padding: 0px;
+} 
+
+.tlacitka ul {
+    margin: 0%;
+}
+
+.tlacitka li {
+    display: inline-block;
+    color: white;
+    border-radius: 8%;
+    border-style: groove;
+    position: relative;
+    top: 375px;
+    margin-right: 25px;
+    padding: 15px 30px; 
+}
+
+
+.tlacitka a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.zvyraznena {
+    background-color: #48418e;
+}   
+
+.kontejner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.polozka {
+    display: block;
+    width: 33.3%;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+
+.jmeno {
+    color: #48418e;
+    font-size: 16px;
+}
+
+.foto {
+   margin: 10px;
+   width: 20%;
+}
+
+.paticka{
+ display: block;
+ background-color:   #48418e;
+ color:white;
+ font-size: 14px;
+ text-align: center;
+ width: 100%;
+ padding:1px;
+}
+
